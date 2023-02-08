@@ -1,5 +1,4 @@
 <script>
-    import {marked} from "marked";
     import * as shared from "../shared";
 
     const codes = shared.codes;
