@@ -2,12 +2,14 @@
     import {marked} from "marked";
     import Cake from "./Cake.svelte";
     import HintCard from "./HintCard.svelte";
+    import CodeForm from "./CodeForm.svelte";
 
     const pages = [
         // COVER
         {
             isCover: true,
             isTurnedOver: false,
+            isClickable: true,
             parts: [
                 {
                     type: 'markdown',
@@ -24,6 +26,7 @@
         {
             isCover: false,
             isTurnedOver: false,
+            isClickable: true,
             parts: [
                 {
                     type: 'markdown',
@@ -54,6 +57,7 @@ Bist du bereit dafür? Wenn ja, dann blätter auf die nächste Seite.
         {
             isCover: false,
             isTurnedOver: false,
+            isClickable: true,
             parts: [
                 {
                     type: 'markdown',
@@ -80,6 +84,7 @@ Ich wünsche dir viel Spaß und Erfolg dabei. 😘
         {
             isCover: false,
             isTurnedOver: false,
+            isClickable: true,
             parts: [
                 {
                     type: 'markdown',
@@ -103,9 +108,31 @@ musst. Der untere Teil gibt dir einen Hinweis darauf wo du das nächste Kärtche
                 },
             ],
         },
+        // CODE FORM
+        {
+            isCover: false,
+            isTurnedOver: false,
+            isClickable: false,
+            parts: [
+                {
+                    type: 'markdown',
+                    content: marked.parse(`
+### Code-Formular
+
+Gib hier deine gefundenen Codes ein. Den Code #0 findest du auf der vorherigen Seite dieser Karte. Die anderen findest
+du in deiner Wohnung.
+                    `),
+                },
+                {
+                    type: 'code-form',
+                },
+            ],
+        },
     ];
 
     function movePage(page) {
+        if (!pages[page].isClickable) return;
+
         pages[page].isTurnedOver = !pages[page].isTurnedOver;
     }
 </script>
@@ -126,6 +153,8 @@ musst. Der untere Teil gibt dir einen Hinweis darauf wo du das nächste Kärtche
                     <Cake/>
                 {:else if part.type === 'card'}
                     <HintCard/>
+                {:else if part.type === 'code-form'}
+                    <CodeForm/>
                 {/if}
             {/each}
         </div>

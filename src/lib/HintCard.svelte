@@ -1,7 +1,11 @@
+<script>
+    import * as shared from "../shared";
+</script>
+
 <div class="hint-card position-relative mb-3">
     <div class="position-absolute top-50 start-50 translate-middle w-100">
         <div class="d-flex flex-column">
-            <h1 class="text-center text-nowrap mb-4">#0: 123456</h1>
+            <h1 class="text-center text-nowrap mb-4">#0: {shared.codes[0]}</h1>
             <span class="text-center fw-bold">Büro</span>
             <span class="text-center px-4">Manchmal müssen Pflanzen angehoben werden.</span>
         </div>
