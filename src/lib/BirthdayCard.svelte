@@ -129,18 +129,6 @@ musst. Der untere Teil gibt dir einen Hinweis darauf wo du das nächste Kärtche
                 {/if}
             {/each}
         </div>
-        <div class="birthday-card__page birthday-card__page--front"
-             class:birthday-card__page--cover={page.isCover}
-             class:birthday-card__page--turned-over="{page.isTurnedOver}"
-             on:click={_ => movePage(idx)}>
-            {#each page.parts as part}
-                {#if part.type === 'markdown'}
-                    {@html part.content}
-                {:else if part.type === 'cake'}
-                    <Cake/>
-                {/if}
-            {/each}
-        </div>
         <div class="birthday-card__page birthday-card__page--back"
              class:birthday-card__page--turned-over="{page.isTurnedOver}"
              on:click={_ => movePage(idx)}>
