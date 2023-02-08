@@ -147,6 +147,7 @@ musst. Der untere Teil gibt dir einen Hinweis darauf wo du das nächste Kärtche
     transform: perspective(2400px);
     transform-style: preserve-3d;
     width: $book-size * $book-w-ratio * 2;
+    pointer-events: none;
   }
 
   .birthday-card__instruction {
@@ -171,6 +172,7 @@ musst. Der untere Teil gibt dir einen Hinweis darauf wo du das nächste Kärtche
     transform-origin: 0 50%;
     transition: transform 1s;
     width: $book-size * $book-w-ratio;
+    pointer-events: all;
 
     &.birthday-card__page--cover {
       background: linear-gradient(#afd2dd, #a1d5e5) 50% 50% / 80% 86% no-repeat,
