@@ -128,10 +128,24 @@ du in deiner Wohnung.
                 },
             ],
         },
+        // YAY
+        {
+            isCover: false,
+            isTurnedOver: false,
+            isClickable: true,
+            parts: [
+                {
+                    type: 'markdown',
+                    content: marked.parse(`
+### Yay
+                    `),
+                },
+            ],
+        },
     ];
 
-    function movePage(page) {
-        if (!pages[page].isClickable) return;
+    function movePage(page, forceTurnOver = false) {
+        if (!pages[page].isClickable && !forceTurnOver) return;
 
         pages[page].isTurnedOver = !pages[page].isTurnedOver;
     }
@@ -154,7 +168,7 @@ du in deiner Wohnung.
                 {:else if part.type === 'card'}
                     <HintCard/>
                 {:else if part.type === 'code-form'}
-                    <CodeForm/>
+                    <CodeForm formWasValid={_ => movePage(idx, true)}/>
                 {/if}
             {/each}
         </div>
