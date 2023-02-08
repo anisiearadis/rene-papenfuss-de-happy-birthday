@@ -84,7 +84,7 @@ Ich wünsche dir viel Spaß und Erfolg dabei. 😘
                 {
                     type: 'markdown',
                     content: marked.parse(`
-### Schnitzeljagt
+### Schnitzeljagd
 
 Hier ist die erste Karte:
                     `),
