@@ -1,8 +1,7 @@
 <script>
     import {createEventDispatcher, onMount} from "svelte"
     import {intervalToDuration, isAfter, isEqual, parseISO} from "date-fns";
-
-    export let to;
+    export let end;
 
     let remaining = {
         years: 0,
@@ -16,10 +15,10 @@
 
     const dispatch = createEventDispatcher();
 
-    let end, timer;
+    let timer;
 
     onMount(() => {
-        end = parseISO(to);
+        end = parseISO(end);
 
         timer = setInterval(() => {
             const start = new Date();

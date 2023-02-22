@@ -16,6 +16,7 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
+    "bs5-lightbox": "^1.8.3",
     "date-fns": "^2.29.3",
     "marked": "^4.2.12"
   }
