@@ -108,14 +108,6 @@ ich doch einfach ein paar Dinge ausschneiden und dann auf ein großes Brett kleb
 gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten Seite findest du ein paar Bilder.
                     `),
                 },
-            ],
-        },
-        // Bilder 1
-        {
-            isCover: false,
-            isTurnedOver: false,
-            isClickable: true,
-            parts: [
                 {
                     type: 'image',
                     props: {
@@ -132,6 +124,14 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                         caption: 'Meine Werkzeuge die ich genutzt habe.',
                     }
                 },
+            ],
+        },
+        // Bilder 1
+        {
+            isCover: false,
+            isTurnedOver: false,
+            isClickable: true,
+            parts: [
                 {
                     type: 'image',
                     props: {
@@ -140,14 +140,6 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                         caption: 'Nicht nur ins Holz habe ich geschnitten.',
                     }
                 },
-            ],
-        },
-        // Bilder 2
-        {
-            isCover: false,
-            isTurnedOver: false,
-            isClickable: true,
-            parts: [
                 {
                     type: 'image',
                     props: {
@@ -164,6 +156,14 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                         caption: 'Hab dann ein Pflaster von Mama bekommen. Das hatte ich zwei Tage getragen.',
                     }
                 },
+            ],
+        },
+        // Bilder 2
+        {
+            isCover: false,
+            isTurnedOver: false,
+            isClickable: true,
+            parts: [
                 {
                     type: 'image',
                     props: {
@@ -172,14 +172,6 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                         caption: 'Hier die fertig ausgeschnittenen Dinos. 🦕🦕',
                     }
                 },
-            ],
-        },
-        // Bilder 3
-        {
-            isCover: false,
-            isTurnedOver: false,
-            isClickable: true,
-            parts: [
                 {
                     type: 'image',
                     props: {
@@ -196,6 +188,14 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                         caption: 'Hier ist er dann auch fertig ausgeschnitten.',
                     }
                 },
+            ],
+        },
+        // Bilder 3
+        {
+            isCover: false,
+            isTurnedOver: false,
+            isClickable: true,
+            parts: [
                 {
                     type: 'image',
                     props: {
@@ -204,14 +204,6 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                         caption: 'Sieht doch eigentlich schon niedlich aus.',
                     }
                 },
-            ],
-        },
-        // Bilder 4
-        {
-            isCover: false,
-            isTurnedOver: false,
-            isClickable: true,
-            parts: [
                 {
                     type: 'image',
                     props: {
@@ -228,6 +220,14 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                         caption: 'Ich hab noch ein Bäumchen gebaut. Das kommt auch noch mit drauf.',
                     }
                 },
+            ],
+        },
+        // Bilder 4
+        {
+            isCover: false,
+            isTurnedOver: false,
+            isClickable: true,
+            parts: [
                 {
                     type: 'image',
                     props: {
@@ -236,14 +236,6 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                         caption: 'Mein Schreibtisch hat auch etwas unter der Aktion gelitten, aber das ist nicht schlimm. 😅',
                     }
                 },
-            ],
-        },
-        // Bilder 5
-        {
-            isCover: false,
-            isTurnedOver: false,
-            isClickable: true,
-            parts: [
                 {
                     type: 'image',
                     props: {
@@ -260,6 +252,14 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                         caption: 'Das Malkasten Weiß immer so doof sein muss. Musste dreimal drüber streichen. 🙄',
                     }
                 },
+            ],
+        },
+        // Bilder 5
+        {
+            isCover: false,
+            isTurnedOver: false,
+            isClickable: true,
+            parts: [
                 {
                     type: 'image',
                     props: {
@@ -268,14 +268,6 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                         caption: 'Nimmt doch Form an.',
                     }
                 },
-            ],
-        },
-        // Bilder 6
-        {
-            isCover: false,
-            isTurnedOver: false,
-            isClickable: true,
-            parts: [
                 {
                     type: 'image',
                     props: {
@@ -292,16 +284,9 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                         caption: 'Der Himmel ist mir nicht ganz so gelungen. Sollte eigentlich bissl heller sein. 😅',
                     }
                 },
-                {
-                    type: 'markdown',
-                    content: marked.parse(`
-Das war eine kurze Tour durch meine vergangenen Abende. Das Endergebnis kannst du dir später anschauen. 😅 Ich sags mal
-so, sieht aus wie von einem 3-jährigen gebaut, aber es steckt viel Schweiß, Blut und Liebe drin. 🥰😘
-                    `),
-                },
             ],
         },
-        // Schlusswort
+        // Bilder 6
         {
             isCover: false,
             isTurnedOver: false,
@@ -310,6 +295,9 @@ so, sieht aus wie von einem 3-jährigen gebaut, aber es steckt viel Schweiß, Bl
                 {
                     type: 'markdown',
                     content: marked.parse(`
+Das war eine kurze Tour durch meine vergangenen Abende. Das Endergebnis kannst du dir später anschauen. 😅 Ich sags mal
+so, sieht aus wie von einem 3-jährigen gebaut, aber es steckt viel Schweiß, Blut und Liebe drin. 🥰😘
+
 Nun stellst du dir bestimmt die Frage, warum ich diesen Aufwand betrieben habe. Nun, ich wollte dir einfach etwas
 basteln. Natürlich habe ich auch noch etwas anderes im Gepäck. 😘 Kannst ja vielleicht mal aus dem Fenster schauen
 und gucken, ob ich schon irgendwo rumstehe. 🤭
