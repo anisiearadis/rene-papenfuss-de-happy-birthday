@@ -111,16 +111,16 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/001.jpg',
-                        originalUrl: '/src/assets/images/001.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/001.jpg',
+                        originalUrl: '/assets/images/001.jpg',
                         caption: 'Die ersten Schnitte sind gemacht.',
                     }
                 },
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/002.jpg',
-                        originalUrl: '/src/assets/images/002.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/002.jpg',
+                        originalUrl: '/assets/images/002.jpg',
                         caption: 'Meine Werkzeuge die ich genutzt habe.',
                     }
                 },
@@ -135,24 +135,24 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/004.jpg',
-                        originalUrl: '/src/assets/images/004.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/004.jpg',
+                        originalUrl: '/assets/images/004.jpg',
                         caption: 'Nicht nur ins Holz habe ich geschnitten.',
                     }
                 },
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/005.jpg',
-                        originalUrl: '/src/assets/images/005.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/005.jpg',
+                        originalUrl: '/assets/images/005.jpg',
                         caption: 'Hier ein Bild vom Übeltäter! 🚨',
                     }
                 },
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/006.jpg',
-                        originalUrl: '/src/assets/images/006.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/006.jpg',
+                        originalUrl: '/assets/images/006.jpg',
                         caption: 'Hab dann ein Pflaster von Mama bekommen. Das hatte ich zwei Tage getragen.',
                     }
                 },
@@ -167,24 +167,24 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/008.jpg',
-                        originalUrl: '/src/assets/images/008.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/008.jpg',
+                        originalUrl: '/assets/images/008.jpg',
                         caption: 'Hier die fertig ausgeschnittenen Dinos. 🦕🦕',
                     }
                 },
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/009.jpg',
-                        originalUrl: '/src/assets/images/009.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/009.jpg',
+                        originalUrl: '/assets/images/009.jpg',
                         caption: 'Um die Landschaft etwas schöner zu machen, habe ich noch einen Grasstreifen vorbereitet.',
                     }
                 },
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/010.jpg',
-                        originalUrl: '/src/assets/images/010.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/010.jpg',
+                        originalUrl: '/assets/images/010.jpg',
                         caption: 'Hier ist er dann auch fertig ausgeschnitten.',
                     }
                 },
@@ -199,24 +199,24 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/011.jpg',
-                        originalUrl: '/src/assets/images/011.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/011.jpg',
+                        originalUrl: '/assets/images/011.jpg',
                         caption: 'Sieht doch eigentlich schon niedlich aus.',
                     }
                 },
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/012.jpg',
-                        originalUrl: '/src/assets/images/012.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/012.jpg',
+                        originalUrl: '/assets/images/012.jpg',
                         caption: 'Etwas mehr Vegetation darf nicht fehlen.',
                     }
                 },
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/014.jpg',
-                        originalUrl: '/src/assets/images/014.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/014.jpg',
+                        originalUrl: '/assets/images/014.jpg',
                         caption: 'Ich hab noch ein Bäumchen gebaut. Das kommt auch noch mit drauf.',
                     }
                 },
@@ -231,24 +231,24 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/015.jpg',
-                        originalUrl: '/src/assets/images/015.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/015.jpg',
+                        originalUrl: '/assets/images/015.jpg',
                         caption: 'Mein Schreibtisch hat auch etwas unter der Aktion gelitten, aber das ist nicht schlimm. 😅',
                     }
                 },
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/016.jpg',
-                        originalUrl: '/src/assets/images/016.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/016.jpg',
+                        originalUrl: '/assets/images/016.jpg',
                         caption: 'Jetzt noch etwas Farbe da drauf bringen. 🙈',
                     }
                 },
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/017.jpg',
-                        originalUrl: '/src/assets/images/017.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/017.jpg',
+                        originalUrl: '/assets/images/017.jpg',
                         caption: 'Das Malkasten Weiß immer so doof sein muss. Musste dreimal drüber streichen. 🙄',
                     }
                 },
@@ -263,24 +263,24 @@ gemacht. Ich habe den Entwicklungsprozess etwas dokumentiert. Auf der nächsten 
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/018.jpg',
-                        originalUrl: '/src/assets/images/018.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/018.jpg',
+                        originalUrl: '/assets/images/018.jpg',
                         caption: 'Nimmt doch Form an.',
                     }
                 },
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/019.jpg',
-                        originalUrl: '/src/assets/images/019.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/019.jpg',
+                        originalUrl: '/assets/images/019.jpg',
                         caption: 'Natürlich werden die anderen Sachen auch noch angemalt.',
                     }
                 },
                 {
                     type: 'image',
                     props: {
-                        thumbnailUrl: '/src/assets/images/thumbnails/020.jpg',
-                        originalUrl: '/src/assets/images/020.jpg',
+                        thumbnailUrl: '/assets/images/thumbnails/020.jpg',
+                        originalUrl: '/assets/images/020.jpg',
                         caption: 'Der Himmel ist mir nicht ganz so gelungen. Sollte eigentlich bissl heller sein. 😅',
                     }
                 },
