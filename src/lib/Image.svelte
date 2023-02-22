@@ -5,13 +5,13 @@
     export let originalUrl;
     export let caption;
 
-    function foo(event) {
+    function openLightbox(event) {
         event.preventDefault();
 
         new Lightbox(event.target).show();
     }
 </script>
 
-<div on:click|preventDefault|stopPropagation={foo}>
+<div on:click|preventDefault|stopPropagation={openLightbox}>
     <img src="{thumbnailUrl}" data-toggle="lightbox" data-remote="{originalUrl}" class="img-thumbnail img-fluid" data-caption="{caption}">
 </div>
